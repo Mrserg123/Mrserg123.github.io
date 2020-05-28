@@ -1,0 +1,57 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+   background: #ffffff;
+    color: black;
+}
+.header{
+    display: flex;
+    height: 500px;
+    background: url(../image/header.png);
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 30px;
+}
+.menu{
+    width: 70%;
+    justify-content: space-between; 
+  
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+.menu-link{
+    margin: 15px;
+   text-decoration: none;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: #989898;
+   font-size: 13px;
+  
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.login-button {
+    display: flex;
+    justify-content: center;
+
+}
+.buttom{
+    width: 100px;
+    height: 40px;
+    margin: 0 0 0 20px;
+    color: #ffffff;
+    background-color: #bcda5c;
+    border: 0;
+    padding: 0;
+    border-radius: 50px 50px;
+    outline: none;
+    
+}
